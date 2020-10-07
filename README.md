@@ -154,4 +154,19 @@ server.listen(1234, () => {
 });
 
 
+// the os module
+
+const os = require('os');
+
+console.log(os.platform());
+
+// the fs module
+
+const fs = require('fs');
+
+fs.writeFile();
+fs.readFile(); 
+
+// 
+
 ```
